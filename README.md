@@ -10,7 +10,7 @@ EXEC	[SP_Customer_ekle]
 		@TUTAR = 125, /*YUKLENECEK TUTAR*/
 		@CUSTOMERNAME = N'YAVUZ', /*MUSTERİ ADI*/
 		@KULLANICIKOD = 100, /*YUKLEYEN KODU*/
-		@PUAN = 1  /*PUAN TIPI*/
+		@PUAN = 1  /*PUAN TIPI bonus_type tablosundaki tip*/ 
 
 
 GO
